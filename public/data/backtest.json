@@ -1,0 +1,195 @@
+{
+  "generated_at": "2026-03-11 23:57:43",
+  "strategies": {
+    "k_props": {
+      "name": "Pitcher K Props (Over)",
+      "2024": {
+        "total_plays": 591,
+        "wins": 287,
+        "losses": 304,
+        "win_rate": 0.4856,
+        "roi": 0.0566,
+        "roi_pct": "5.66%",
+        "total_profit_units": 33.44
+      },
+      "2025": {
+        "total_plays": 556,
+        "wins": 272,
+        "losses": 284,
+        "win_rate": 0.4892,
+        "roi": 0.0632,
+        "roi_pct": "6.32%",
+        "total_profit_units": 35.12
+      },
+      "two_year_avg_roi": 0.0599,
+      "two_year_total_plays": 1147,
+      "edge_12pct_plus": {
+        "2024": {
+          "count": 228,
+          "wins": 117,
+          "win_rate": 0.5132,
+          "roi": 0.1356
+        },
+        "2025": {
+          "count": 188,
+          "wins": 93,
+          "win_rate": 0.4947,
+          "roi": 0.0692
+        },
+        "two_year_avg_roi": 0.1024
+      }
+    },
+    "f5_under": {
+      "name": "F5 Innings Under",
+      "2024": {
+        "total_plays": 993,
+        "wins": 588,
+        "losses": 405,
+        "win_rate": 0.5921,
+        "roi": 0.1305,
+        "roi_pct": "13.05%",
+        "total_profit_units": 129.55
+      },
+      "2025": {
+        "total_plays": 983,
+        "wins": 591,
+        "losses": 392,
+        "win_rate": 0.6012,
+        "roi": 0.1478,
+        "roi_pct": "14.78%",
+        "total_profit_units": 145.28
+      },
+      "two_year_avg_roi": 0.1391,
+      "two_year_total_plays": 1976,
+      "edge_12pct_plus": {
+        "2024": {
+          "count": 992,
+          "wins": 587,
+          "win_rate": 0.5917,
+          "roi": 0.1297
+        },
+        "2025": {
+          "count": 983,
+          "wins": 591,
+          "win_rate": 0.6012,
+          "roi": 0.1478
+        },
+        "two_year_avg_roi": 0.1387
+      }
+    },
+    "total_bases": {
+      "name": "Batter Total Bases (Over 1.5)",
+      "2024": {
+        "total_plays": 1762,
+        "wins": 731,
+        "losses": 1031,
+        "win_rate": 0.4149,
+        "roi": -0.1898,
+        "roi_pct": "-18.98%",
+        "total_profit_units": -334.36
+      },
+      "2025": {
+        "total_plays": 1493,
+        "wins": 661,
+        "losses": 832,
+        "win_rate": 0.4427,
+        "roi": -0.1512,
+        "roi_pct": "-15.12%",
+        "total_profit_units": -225.72
+      },
+      "two_year_avg_roi": -0.1705,
+      "two_year_total_plays": 3255,
+      "edge_12pct_plus": {
+        "2024": {
+          "count": 404,
+          "wins": 178,
+          "win_rate": 0.4406,
+          "roi": -0.1003
+        },
+        "2025": {
+          "count": 278,
+          "wins": 121,
+          "win_rate": 0.4353,
+          "roi": -0.136
+        },
+        "two_year_avg_roi": -0.1182
+      }
+    },
+    "first_inning": {
+      "name": "First Inning Scoring",
+      "2024": {
+        "total_plays": 16,
+        "wins": 12,
+        "losses": 4,
+        "win_rate": 0.75,
+        "roi": 0.425,
+        "roi_pct": "42.50%",
+        "total_profit_units": 6.8
+      },
+      "2025": {
+        "total_plays": 32,
+        "wins": 28,
+        "losses": 4,
+        "win_rate": 0.875,
+        "roi": 0.6625,
+        "roi_pct": "66.25%",
+        "total_profit_units": 21.2
+      },
+      "two_year_avg_roi": 0.5437,
+      "two_year_total_plays": 48,
+      "edge_12pct_plus": {
+        "2024": {
+          "count": 0,
+          "wins": 0,
+          "win_rate": 0,
+          "roi": 0
+        },
+        "2025": {
+          "count": 0,
+          "wins": 0,
+          "win_rate": 0,
+          "roi": 0
+        },
+        "two_year_avg_roi": 0
+      }
+    },
+    "ip_props": {
+      "name": "Pitcher Outs Recorded (IP Props)",
+      "2024": {
+        "total_plays": 762,
+        "wins": 432,
+        "losses": 330,
+        "win_rate": 0.5669,
+        "roi": 0.0823,
+        "roi_pct": "8.23%",
+        "total_profit_units": 62.73
+      },
+      "2025": {
+        "total_plays": 868,
+        "wins": 525,
+        "losses": 343,
+        "win_rate": 0.6048,
+        "roi": 0.1547,
+        "roi_pct": "15.47%",
+        "total_profit_units": 134.28
+      },
+      "two_year_avg_roi": 0.1185,
+      "two_year_total_plays": 1630,
+      "edge_12pct_plus": {
+        "2024": {
+          "count": 361,
+          "wins": 222,
+          "win_rate": 0.615,
+          "roi": 0.174
+        },
+        "2025": {
+          "count": 453,
+          "wins": 288,
+          "win_rate": 0.6358,
+          "roi": 0.2137
+        },
+        "two_year_avg_roi": 0.1938
+      }
+    }
+  }
+}

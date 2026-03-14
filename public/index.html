@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosebleed Sports — MLB Props</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    a { color: #00C853; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Nav */
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      border-bottom: 1px solid #1a1a1a;
+      position: sticky;
+      top: 0;
+      background: #0a0a0a;
+      z-index: 100;
+    }
+    .nav-brand {
+      font-weight: 800;
+      font-size: 18px;
+      letter-spacing: -0.5px;
+    }
+    .nav-brand span { color: #00C853; }
+    .nav-tabs {
+      display: flex;
+      gap: 4px;
+    }
+    .nav-tab {
+      padding: 8px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      color: #888;
+      transition: all 0.2s;
+      border: none;
+      background: none;
+    }
+    .nav-tab:hover { color: #fff; background: #1a1a1a; }
+    .nav-tab.active { color: #fff; background: #1a1a1a; }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 80px 40px 60px;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 800;
+      letter-spacing: -2px;
+      margin-bottom: 16px;
+    }
+    .hero h1 span { color: #00C853; }
+    .hero p {
+      font-size: 18px;
+      color: #888;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Stats row */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    .stat-card {
+      background: #0a0a0a;
+      padding: 32px;
+      text-align: center;
+    }
+    .stat-value {
+      font-size: 36px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+    .stat-value.green { color: #00C853; }
+    .stat-value.red { color: #ff4444; }
+    .stat-label {
+      font-size: 12px;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 4px;
+    }
+
+    /* Content */
+    .content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 24px;
+      letter-spacing: -0.5px;
+    }
+
+    /* Tab content */
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* Table */
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid #1a1a1a;
+      border-radius: 12px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th {
+      text-align: left;
+      padding: 12px 16px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #666;
+      border-bottom: 1px solid #1a1a1a;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #111;
+      white-space: nowrap;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #111; }
+    .win { color: #00C853; font-weight: 600; }
+    .loss { color: #ff4444; font-weight: 600; }
+    .push { color: #FFD600; font-weight: 600; }
+    .pending { color: #666; }
+
+    /* Model tag */
+    .model-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .model-tag.f5 { background: #00C853; color: #000; }
+    .model-tag.k { background: #2979FF; color: #fff; }
+    .model-tag.ip { background: #FF6D00; color: #000; }
+
+    /* Chart */
+    .chart-container {
+      background: #111;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 32px;
+      height: 300px;
+      position: relative;
+    }
+    .chart-container svg { width: 100%; height: 100%; }
+
+    /* Backtest cards */
+    .backtest-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .backtest-card {
+      background: #111;
+      border: 1px solid #1a1a1a;
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .backtest-card h3 {
+      font-size: 16px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .backtest-stat {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #1a1a1a;
+      font-size: 14px;
+    }
+    .backtest-stat:last-child { border-bottom: none; }
+    .backtest-stat .label { color: #888; }
+
+    /* How it works */
+    .how-section {
+      margin-top: 40px;
+    }
+    .how-card {
+      background: #111;
+      border: 1px solid #1a1a1a;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 16px;
+    }
+    .how-card h4 {
+      font-size: 15px;
+      margin-bottom: 8px;
+      color: #00C853;
+    }
+    .how-card p { color: #aaa; font-size: 14px; }
+
+    /* Model status */
+    .status-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .status-card {
+      background: #111;
+      border: 1px solid #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .status-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    .status-dot.live { background: #00C853; }
+    .status-dot.off { background: #666; }
+
+    /* Today's picks */
+    .today-pick {
+      background: #111;
+      border: 1px solid #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .pick-info h4 { font-size: 16px; margin-bottom: 4px; }
+    .pick-info p { color: #888; font-size: 13px; }
+    .pick-edge {
+      font-size: 24px;
+      font-weight: 800;
+      color: #00C853;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 40px;
+      color: #333;
+      font-size: 12px;
+      border-top: 1px solid #1a1a1a;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 28px; }
+      .stats-row { grid-template-columns: repeat(2, 1fr); }
+      .backtest-grid, .status-grid { grid-template-columns: 1fr; }
+      .nav { padding: 16px 20px; flex-wrap: wrap; gap: 12px; }
+      .content { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-brand">NOSEBLEED <span>SPORTS</span></div>
+  <div class="nav-tabs">
+    <button class="nav-tab active" data-tab="record">Live Record</button>
+    <button class="nav-tab" data-tab="backtest">Backtest</button>
+    <button class="nav-tab" data-tab="model">Model</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>NOSEBLEED <span>SPORTS</span> MLB PROPS</h1>
+  <p>AI-powered picks. Verified track record. Starting March 27.</p>
+</section>
+
+<div class="stats-row" id="stats-row">
+  <div class="stat-card">
+    <div class="stat-value" id="stat-record">0-0</div>
+    <div class="stat-label">Season Record</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" id="stat-winrate">—</div>
+    <div class="stat-label">Win Rate</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value green" id="stat-roi">—</div>
+    <div class="stat-label">ROI</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value green" id="stat-units">—</div>
+    <div class="stat-label">Units P&L</div>
+  </div>
+</div>
+
+<!-- LIVE RECORD TAB -->
+<div class="tab-content active" id="tab-record">
+  <div class="content">
+    <h2 class="section-title">Pick History</h2>
+    <div class="table-wrap">
+      <table id="picks-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Play</th>
+            <th>Game</th>
+            <th>Model</th>
+            <th>Edge</th>
+            <th>Odds</th>
+            <th>Book</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody id="picks-tbody"></tbody>
+      </table>
+    </div>
+    <div class="chart-container">
+      <h3 class="section-title" style="margin-bottom:16px">Running ROI</h3>
+      <svg id="roi-chart" viewBox="0 0 800 220" preserveAspectRatio="none"></svg>
+    </div>
+  </div>
+</div>
+
+<!-- BACKTEST TAB -->
+<div class="tab-content" id="tab-backtest">
+  <div class="content">
+    <h2 class="section-title">2-Year Backtest Results (2024–2025)</h2>
+    <div class="backtest-grid" id="backtest-grid"></div>
+
+    <div class="how-section">
+      <h2 class="section-title">How It Works</h2>
+      <div class="how-card">
+        <h4>F5 Innings Under</h4>
+        <p>Predicts total runs scored in the first 5 innings. Blends pitcher ERA (season + last 5 starts), opponent runs/game, and park run factors. Only fires when both starters have recent ERA under 3.80. 2-year backtest: +13.9% ROI across 1,976 plays.</p>
+      </div>
+      <div class="how-card">
+        <h4>Pitcher K Props (Over)</h4>
+        <p>Projects strikeout totals for starting pitchers. Combines K/9 rate, recent K averages, opponent strikeout susceptibility (K/PA), and ballpark K factors. Weights season and recent performance 50/50. 2-year backtest: +6.0% ROI (1,147 plays), +10.2% at 12%+ edge.</p>
+      </div>
+      <div class="how-card">
+        <h4>IP Props (Outs Recorded)</h4>
+        <p>Predicts whether a pitcher goes deep or gets pulled early. Under signals trigger on short recent IP averages, short rest, or high pitch counts. Over signals require 6.5+ IP average and a strikeout-prone opponent. 2-year backtest: +11.8% ROI (1,630 plays), +19.4% at 12%+ edge.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODEL TAB -->
+<div class="tab-content" id="tab-model">
+  <div class="content">
+    <h2 class="section-title">Model Status</h2>
+    <div class="status-grid">
+      <div class="status-card">
+        <div><span class="status-dot live"></span><strong>F5 Under</strong></div>
+        <p style="color:#888;font-size:13px;margin-top:8px">Primary model — +13.9% 2yr ROI</p>
+      </div>
+      <div class="status-card">
+        <div><span class="status-dot live"></span><strong>K Props Over</strong></div>
+        <p style="color:#888;font-size:13px;margin-top:8px">Secondary model — +6.0% 2yr ROI</p>
+      </div>
+      <div class="status-card">
+        <div><span class="status-dot live"></span><strong>IP Props</strong></div>
+        <p style="color:#888;font-size:13px;margin-top:8px">Tertiary model — +11.8% 2yr ROI</p>
+      </div>
+    </div>
+
+    <h2 class="section-title">Today's Picks</h2>
+    <div id="today-picks">
+      <p style="color:#666">No picks generated yet today. Picks post daily at 10:30 AM ET.</p>
+    </div>
+
+    <p style="color:#444;font-size:12px;margin-top:24px" id="last-updated"></p>
+  </div>
+</div>
+
+<footer class="footer">
+  Nosebleed Sports &copy; 2026 — For entertainment purposes only. Past performance does not guarantee future results.
+</footer>
+
+<script>
+// Tab switching
+document.querySelectorAll('.nav-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+  });
+});
+
+function modelTagClass(model) {
+  if (model === 'f5_under') return 'f5';
+  if (model === 'k_props') return 'k';
+  if (model === 'ip_props') return 'ip';
+  return '';
+}
+
+function modelLabel(model) {
+  if (model === 'f5_under') return 'F5 Under';
+  if (model === 'k_props') return 'K Props';
+  if (model === 'ip_props') return 'IP Props';
+  return model;
+}
+
+function formatOdds(odds) {
+  if (!odds) return '—';
+  return odds > 0 ? '+' + odds : '' + odds;
+}
+
+function resultClass(r) {
+  if (r === 'W') return 'win';
+  if (r === 'L') return 'loss';
+  if (r === 'PUSH') return 'push';
+  return 'pending';
+}
+
+// Load picks data
+async function loadPicks() {
+  try {
+    const resp = await fetch('data/picks.json');
+    if (!resp.ok) return [];
+    return await resp.json();
+  } catch { return []; }
+}
+
+// Load backtest data
+async function loadBacktest() {
+  try {
+    const resp = await fetch('data/backtest.json');
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch { return null; }
+}
+
+function renderPicks(picks) {
+  const tbody = document.getElementById('picks-tbody');
+  if (!picks.length) {
+    tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;color:#666;padding:40px">No picks yet. Season starts March 27.</td></tr>';
+    return;
+  }
+
+  // Stats
+  const settled = picks.filter(p => p.result && p.result !== 'NO_ACTION');
+  const wins = settled.filter(p => p.result === 'W').length;
+  const losses = settled.filter(p => p.result === 'L').length;
+  const pushes = settled.filter(p => p.result === 'PUSH').length;
+  const total = wins + losses + pushes;
+
+  document.getElementById('stat-record').textContent = `${wins}-${losses}` + (pushes ? `-${pushes}` : '');
+
+  if (total > 0) {
+    const wr = ((wins / total) * 100).toFixed(1);
+    document.getElementById('stat-winrate').textContent = wr + '%';
+
+    // ROI
+    let units = 0;
+    settled.forEach(p => {
+      if (p.result === 'W') {
+        const odds = p.best_odds || -110;
+        units += odds > 0 ? odds / 100 : 100 / Math.abs(odds);
+      } else if (p.result === 'L') {
+        units -= 1;
+      }
+    });
+    const roi = ((units / total) * 100).toFixed(1);
+    const roiEl = document.getElementById('stat-roi');
+    roiEl.textContent = (roi >= 0 ? '+' : '') + roi + '%';
+    roiEl.className = 'stat-value ' + (roi >= 0 ? 'green' : 'red');
+
+    const unitsEl = document.getElementById('stat-units');
+    unitsEl.textContent = (units >= 0 ? '+' : '') + units.toFixed(1) + 'u';
+    unitsEl.className = 'stat-value ' + (units >= 0 ? 'green' : 'red');
+  }
+
+  // Table
+  tbody.innerHTML = picks.map(p => `
+    <tr>
+      <td>${p.date}</td>
+      <td>${p.play}</td>
+      <td>${p.game}</td>
+      <td><span class="model-tag ${modelTagClass(p.model)}">${modelLabel(p.model)}</span></td>
+      <td>${p.edge_pct ? p.edge_pct.toFixed(1) + '%' : '—'}</td>
+      <td>${formatOdds(p.best_odds)}</td>
+      <td>${p.best_book || '—'}</td>
+      <td class="${resultClass(p.result)}">${p.result || 'PENDING'}</td>
+    </tr>
+  `).join('');
+
+  // ROI chart
+  renderROIChart(settled);
+}
+
+function renderROIChart(settled) {
+  const svg = document.getElementById('roi-chart');
+  if (!settled.length) {
+    svg.innerHTML = '<text x="400" y="110" text-anchor="middle" fill="#666" font-size="14">No settled picks yet</text>';
+    return;
+  }
+
+  let cumUnits = 0;
+  const points = [0];
+  settled.forEach(p => {
+    if (p.result === 'W') {
+      const odds = p.best_odds || -110;
+      cumUnits += odds > 0 ? odds / 100 : 100 / Math.abs(odds);
+    } else if (p.result === 'L') {
+      cumUnits -= 1;
+    }
+    points.push(cumUnits);
+  });
+
+  const minY = Math.min(0, ...points);
+  const maxY = Math.max(1, ...points);
+  const rangeY = maxY - minY || 1;
+
+  const w = 800, h = 200, pad = 10;
+  const scaleX = i => pad + (i / (points.length - 1)) * (w - 2 * pad);
+  const scaleY = v => h - pad - ((v - minY) / rangeY) * (h - 2 * pad);
+
+  // Zero line
+  const zeroY = scaleY(0);
+  let svgStr = `<line x1="${pad}" y1="${zeroY}" x2="${w - pad}" y2="${zeroY}" stroke="#333" stroke-width="1" stroke-dasharray="4"/>`;
+
+  // Area fill
+  const areaPoints = points.map((v, i) => `${scaleX(i)},${scaleY(v)}`).join(' ');
+  svgStr += `<polygon points="${scaleX(0)},${zeroY} ${areaPoints} ${scaleX(points.length - 1)},${zeroY}" fill="#00C853" opacity="0.1"/>`;
+
+  // Line
+  const linePoints = points.map((v, i) => `${scaleX(i)},${scaleY(v)}`).join(' ');
+  svgStr += `<polyline points="${linePoints}" fill="none" stroke="#00C853" stroke-width="2"/>`;
+
+  // End dot
+  const lastX = scaleX(points.length - 1);
+  const lastY = scaleY(points[points.length - 1]);
+  svgStr += `<circle cx="${lastX}" cy="${lastY}" r="4" fill="#00C853"/>`;
+
+  // Labels
+  svgStr += `<text x="${w - pad}" y="${lastY - 10}" text-anchor="end" fill="#00C853" font-size="13" font-weight="600">${cumUnits >= 0 ? '+' : ''}${cumUnits.toFixed(1)}u</text>`;
+
+  svg.innerHTML = svgStr;
+}
+
+function renderBacktest(data) {
+  if (!data || !data.strategies) return;
+
+  const grid = document.getElementById('backtest-grid');
+  const strats = data.strategies;
+  const show = ['f5_under', 'k_props', 'ip_props'];
+
+  grid.innerHTML = show.map(key => {
+    const s = strats[key];
+    if (!s) return '';
+    const tagClass = key === 'f5_under' ? 'f5' : key === 'k_props' ? 'k' : 'ip';
+    return `
+      <div class="backtest-card">
+        <h3><span class="model-tag ${tagClass}">${s.name}</span></h3>
+        <div class="backtest-stat"><span class="label">2024 ROI</span><span class="green">${s['2024'].roi_pct}</span></div>
+        <div class="backtest-stat"><span class="label">2025 ROI</span><span class="green">${s['2025'].roi_pct}</span></div>
+        <div class="backtest-stat"><span class="label">2-Year Avg</span><span class="green">${(s.two_year_avg_roi * 100).toFixed(1)}%</span></div>
+        <div class="backtest-stat"><span class="label">Total Plays</span><span>${s.two_year_total_plays}</span></div>
+        <div class="backtest-stat"><span class="label">2024 W-L</span><span>${s['2024'].wins}-${s['2024'].losses}</span></div>
+        <div class="backtest-stat"><span class="label">2025 W-L</span><span>${s['2025'].wins}-${s['2025'].losses}</span></div>
+        <div class="backtest-stat"><span class="label">12%+ Edge ROI</span><span class="green">${s.edge_12pct_plus ? (s.edge_12pct_plus.two_year_avg_roi * 100).toFixed(1) + '%' : 'N/A'}</span></div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderTodayPicks(picks) {
+  const today = new Date().toISOString().slice(0, 10);
+  const todayPicks = picks.filter(p => p.date === today);
+  const container = document.getElementById('today-picks');
+
+  if (!todayPicks.length) return;
+
+  container.innerHTML = todayPicks.map(p => `
+    <div class="today-pick">
+      <div class="pick-info">
+        <h4>${p.play}</h4>
+        <p>${p.game} &mdash; <span class="model-tag ${modelTagClass(p.model)}">${modelLabel(p.model)}</span> ${p.best_book ? '| ' + p.best_book + ' ' + formatOdds(p.best_odds) : ''}</p>
+      </div>
+      <div class="pick-edge">+${p.edge_pct ? p.edge_pct.toFixed(1) : '0'}%</div>
+    </div>
+  `).join('');
+}
+
+// Init
+(async () => {
+  const [picks, backtest] = await Promise.all([loadPicks(), loadBacktest()]);
+  renderPicks(picks);
+  renderBacktest(backtest);
+  renderTodayPicks(picks);
+
+  const updatedEl = document.getElementById('last-updated');
+  updatedEl.textContent = 'Dashboard last updated: ' + new Date().toLocaleString();
+})();
+</script>
+
+</body>
+</html>
