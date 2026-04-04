@@ -1,5 +1,25 @@
 [
   {
+    "id": 4,
+    "date": "2026-04-03",
+    "model": "ip_props",
+    "game": "Toronto Blue Jays @ Chicago White Sox",
+    "play": "Grant Taylor Under 17.5 Outs",
+    "edge_pct": 82.9,
+    "our_prob": 3.0,
+    "market_prob": 17.5,
+    "best_odds": 100,
+    "best_book": "DraftKings",
+    "key_features": {
+      "avg_ip_last_3": 1.0,
+      "days_rest": 5
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-03T10:30:11.992440",
+    "settled_at": "2026-04-04T09:00:06.358217"
+  },
+  {
     "id": 3,
     "date": "2026-03-31",
     "model": "k_props",
