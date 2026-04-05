@@ -1,5 +1,66 @@
 [
   {
+    "id": 7,
+    "date": "2026-04-04",
+    "model": "ip_props",
+    "game": "Toronto Blue Jays @ Chicago White Sox",
+    "play": "Grant Taylor Under 17.5 Outs",
+    "edge_pct": 48.6,
+    "our_prob": 9.0,
+    "market_prob": 17.5,
+    "best_odds": 100,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "avg_ip_last_3": 1.0,
+      "days_rest": 1
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-04T10:30:15.670935",
+    "settled_at": "2026-04-05T09:00:08.028861"
+  },
+  {
+    "id": 6,
+    "date": "2026-04-04",
+    "model": "k_props",
+    "game": "Toronto Blue Jays @ Chicago White Sox",
+    "play": "Mason Fluharty Over 0.5 Ks",
+    "edge_pct": 80.1,
+    "our_prob": 0.8,
+    "market_prob": 0.5,
+    "best_odds": 100,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "k_per_9": 21.6,
+      "opp_k_rate": 0.329,
+      "recent_k_avg": 1.0
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-04T10:30:15.667587",
+    "settled_at": "2026-04-05T09:00:08.032463"
+  },
+  {
+    "id": 5,
+    "date": "2026-04-04",
+    "model": "ip_props",
+    "game": "Toronto Blue Jays @ Chicago White Sox",
+    "play": "Mason Fluharty Under 17.5 Outs",
+    "edge_pct": 88.6,
+    "our_prob": 2.0,
+    "market_prob": 17.5,
+    "best_odds": 100,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "avg_ip_last_3": 0.2,
+      "days_rest": 3
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-04T10:30:15.661699",
+    "settled_at": "2026-04-05T09:00:08.034125"
+  },
+  {
     "id": 4,
     "date": "2026-04-03",
     "model": "ip_props",
