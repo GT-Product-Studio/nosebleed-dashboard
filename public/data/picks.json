@@ -1,5 +1,109 @@
 [
   {
+    "id": 16,
+    "date": "2026-04-07",
+    "model": "f5_under",
+    "game": "Philadelphia Phillies @ San Francisco Giants",
+    "play": "F5 Under 4.0",
+    "edge_pct": 47.2,
+    "our_prob": 77.1,
+    "market_prob": 52.4,
+    "best_odds": -105,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 0.4,
+      "home_pitcher_era_l5": 3.38,
+      "park_factor": 0.95
+    },
+    "result": "W",
+    "actual_score": "0-3",
+    "created_at": "2026-04-07T10:30:28.298625",
+    "settled_at": "2026-04-08T09:00:06.469820"
+  },
+  {
+    "id": 15,
+    "date": "2026-04-07",
+    "model": "f5_under",
+    "game": "Los Angeles Dodgers @ Toronto Blue Jays",
+    "play": "F5 Under 6.0",
+    "edge_pct": 57.2,
+    "our_prob": 82.3,
+    "market_prob": 52.4,
+    "best_odds": -104,
+    "best_book": "FanDuel",
+    "key_features": {
+      "away_pitcher_era_l5": 3.0,
+      "home_pitcher_era_l5": 1.12,
+      "park_factor": 0.99
+    },
+    "result": "W",
+    "actual_score": "3-0",
+    "created_at": "2026-04-07T10:30:28.294559",
+    "settled_at": "2026-04-08T09:00:06.467592"
+  },
+  {
+    "id": 14,
+    "date": "2026-04-07",
+    "model": "ip_props",
+    "game": "Baltimore Orioles @ Chicago White Sox",
+    "play": "Shane Smith Under 17.5 Outs",
+    "edge_pct": 60.0,
+    "our_prob": 7.0,
+    "market_prob": 17.5,
+    "best_odds": 103,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "avg_ip_last_3": 2.1,
+      "days_rest": 6
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-07T10:30:28.290988",
+    "settled_at": "2026-04-08T09:00:06.459643"
+  },
+  {
+    "id": 13,
+    "date": "2026-04-07",
+    "model": "f5_under",
+    "game": "Cincinnati Reds @ Miami Marlins",
+    "play": "F5 Under 4.5",
+    "edge_pct": 64.6,
+    "our_prob": 86.2,
+    "market_prob": 52.4,
+    "best_odds": 102,
+    "best_book": "DraftKings",
+    "key_features": {
+      "away_pitcher_era_l5": 1.54,
+      "home_pitcher_era_l5": 0.0,
+      "park_factor": 0.94
+    },
+    "result": "W",
+    "actual_score": "0-2",
+    "created_at": "2026-04-07T10:30:28.287168",
+    "settled_at": "2026-04-08T09:00:06.462067"
+  },
+  {
+    "id": 12,
+    "date": "2026-04-07",
+    "model": "f5_under",
+    "game": "Detroit Tigers @ Minnesota Twins",
+    "play": "F5 Under 5.2",
+    "edge_pct": 73.8,
+    "our_prob": 91.1,
+    "market_prob": 52.4,
+    "best_odds": 104,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 0.34,
+      "home_pitcher_era_l5": 1.48,
+      "park_factor": 0.98
+    },
+    "result": "W",
+    "actual_score": "0-4",
+    "created_at": "2026-04-07T10:30:28.279856",
+    "settled_at": "2026-04-08T09:00:06.464730"
+  },
+  {
     "id": 11,
     "date": "2026-04-06",
     "model": "k_props",
