@@ -1,5 +1,107 @@
 [
   {
+    "id": 21,
+    "date": "2026-04-08",
+    "model": "ip_props",
+    "game": "Athletics @ New York Yankees",
+    "play": "Luis Severino Under 17.5 Outs",
+    "edge_pct": 31.4,
+    "our_prob": 12.0,
+    "market_prob": 17.5,
+    "best_odds": 100,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "avg_ip_last_3": 4.0,
+      "days_rest": 7
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-08T10:30:31.303486",
+    "settled_at": "2026-04-09T09:00:04.719371"
+  },
+  {
+    "id": 20,
+    "date": "2026-04-08",
+    "model": "ip_props",
+    "game": "Seattle Mariners @ Texas Rangers",
+    "play": "Bryan Woo Over 17.5 Outs",
+    "edge_pct": 31.4,
+    "our_prob": 23.0,
+    "market_prob": 17.5,
+    "best_odds": 100,
+    "best_book": "FanDuel",
+    "key_features": {
+      "avg_ip_last_5": 6.5,
+      "opp_k_rate": 0.253
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-08T10:30:31.300493",
+    "settled_at": "2026-04-09T09:00:04.727398"
+  },
+  {
+    "id": 19,
+    "date": "2026-04-08",
+    "model": "f5_under",
+    "game": "Seattle Mariners @ Texas Rangers",
+    "play": "F5 Under 4.1",
+    "edge_pct": 32.3,
+    "our_prob": 69.3,
+    "market_prob": 52.4,
+    "best_odds": -103,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 2.19,
+      "home_pitcher_era_l5": 3.67,
+      "park_factor": 1.04
+    },
+    "result": "W",
+    "actual_score": "0-3",
+    "created_at": "2026-04-08T10:30:31.297050",
+    "settled_at": "2026-04-09T09:00:04.728919"
+  },
+  {
+    "id": 18,
+    "date": "2026-04-08",
+    "model": "ip_props",
+    "game": "Chicago Cubs @ Tampa Bay Rays",
+    "play": "Colin Rea Under 17.5 Outs",
+    "edge_pct": 48.6,
+    "our_prob": 9.0,
+    "market_prob": 17.5,
+    "best_odds": -102,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "avg_ip_last_3": 3.0,
+      "days_rest": 5
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-08T10:30:31.292568",
+    "settled_at": "2026-04-09T09:00:04.722864"
+  },
+  {
+    "id": 17,
+    "date": "2026-04-08",
+    "model": "f5_under",
+    "game": "San Diego Padres @ Pittsburgh Pirates",
+    "play": "F5 Under 4.7",
+    "edge_pct": 55.2,
+    "our_prob": 81.3,
+    "market_prob": 52.4,
+    "best_odds": 105,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 1.69,
+      "home_pitcher_era_l5": 0.75,
+      "park_factor": 0.97
+    },
+    "result": "W",
+    "actual_score": "0-0",
+    "created_at": "2026-04-08T10:30:31.287272",
+    "settled_at": "2026-04-09T09:00:04.725000"
+  },
+  {
     "id": 16,
     "date": "2026-04-07",
     "model": "f5_under",
