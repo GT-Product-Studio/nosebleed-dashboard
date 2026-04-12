@@ -1,5 +1,109 @@
 [
   {
+    "id": 36,
+    "date": "2026-04-11",
+    "model": "ip_props",
+    "game": "San Francisco Giants @ Baltimore Orioles",
+    "play": "Chris Bassitt Under 17.5 Outs",
+    "edge_pct": 48.6,
+    "our_prob": 9.0,
+    "market_prob": 17.5,
+    "best_odds": 102,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "avg_ip_last_3": 3.0,
+      "days_rest": 6
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-11T10:30:30.849131",
+    "settled_at": "2026-04-12T09:00:05.561539"
+  },
+  {
+    "id": 35,
+    "date": "2026-04-11",
+    "model": "f5_under",
+    "game": "Houston Astros @ Seattle Mariners",
+    "play": "F5 Under 5.6",
+    "edge_pct": 49.0,
+    "our_prob": 78.1,
+    "market_prob": 52.4,
+    "best_odds": -104,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 2.28,
+      "home_pitcher_era_l5": 1.4,
+      "park_factor": 0.93
+    },
+    "result": "L",
+    "actual_score": "7-7",
+    "created_at": "2026-04-11T10:30:30.846786",
+    "settled_at": "2026-04-12T09:00:05.554854"
+  },
+  {
+    "id": 34,
+    "date": "2026-04-11",
+    "model": "f5_under",
+    "game": "New York Yankees @ Tampa Bay Rays",
+    "play": "F5 Under 5.2",
+    "edge_pct": 59.3,
+    "our_prob": 83.4,
+    "market_prob": 52.4,
+    "best_odds": -108,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 0.45,
+      "home_pitcher_era_l5": 2.62,
+      "park_factor": 0.96
+    },
+    "result": "W",
+    "actual_score": "1-1",
+    "created_at": "2026-04-11T10:30:30.843873",
+    "settled_at": "2026-04-12T09:00:05.557457"
+  },
+  {
+    "id": 33,
+    "date": "2026-04-11",
+    "model": "f5_under",
+    "game": "Cleveland Guardians @ Atlanta Braves",
+    "play": "F5 Under 5.3",
+    "edge_pct": 62.0,
+    "our_prob": 84.9,
+    "market_prob": 52.4,
+    "best_odds": -105,
+    "best_book": "DraftKings",
+    "key_features": {
+      "away_pitcher_era_l5": 0.41,
+      "home_pitcher_era_l5": 1.93,
+      "park_factor": 1.0
+    },
+    "result": "W",
+    "actual_score": "1-0",
+    "created_at": "2026-04-11T10:30:30.841217",
+    "settled_at": "2026-04-12T09:00:05.550083"
+  },
+  {
+    "id": 32,
+    "date": "2026-04-11",
+    "model": "f5_under",
+    "game": "Pittsburgh Pirates @ Chicago Cubs",
+    "play": "F5 Under 5.0",
+    "edge_pct": 65.5,
+    "our_prob": 86.7,
+    "market_prob": 52.4,
+    "best_odds": 100,
+    "best_book": "BetMGM",
+    "key_features": {
+      "away_pitcher_era_l5": 2.62,
+      "home_pitcher_era_l5": 0.0,
+      "park_factor": 1.01
+    },
+    "result": "W",
+    "actual_score": "3-1",
+    "created_at": "2026-04-11T10:30:30.836516",
+    "settled_at": "2026-04-12T09:00:05.559722"
+  },
+  {
     "id": 31,
     "date": "2026-04-10",
     "model": "k_props",
