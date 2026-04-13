@@ -1,5 +1,109 @@
 [
   {
+    "id": 41,
+    "date": "2026-04-12",
+    "model": "f5_under",
+    "game": "Chicago White Sox @ Kansas City Royals",
+    "play": "F5 Under 3.6",
+    "edge_pct": 52.3,
+    "our_prob": 79.8,
+    "market_prob": 52.4,
+    "best_odds": -112,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 2.59,
+      "home_pitcher_era_l5": 1.75,
+      "park_factor": 0.98
+    },
+    "result": "L",
+    "actual_score": "4-5",
+    "created_at": "2026-04-12T10:30:31.510154",
+    "settled_at": "2026-04-13T09:00:05.708122"
+  },
+  {
+    "id": 40,
+    "date": "2026-04-12",
+    "model": "f5_under",
+    "game": "Los Angeles Angels @ Cincinnati Reds",
+    "play": "F5 Under 4.3",
+    "edge_pct": 58.3,
+    "our_prob": 82.9,
+    "market_prob": 52.4,
+    "best_odds": -108,
+    "best_book": "DraftKings",
+    "key_features": {
+      "away_pitcher_era_l5": 0.15,
+      "home_pitcher_era_l5": 2.09,
+      "park_factor": 1.03
+    },
+    "result": "L",
+    "actual_score": "7-0",
+    "created_at": "2026-04-12T10:30:31.507579",
+    "settled_at": "2026-04-13T09:00:05.715094"
+  },
+  {
+    "id": 39,
+    "date": "2026-04-12",
+    "model": "f5_under",
+    "game": "New York Yankees @ Tampa Bay Rays",
+    "play": "F5 Under 5.2",
+    "edge_pct": 64.1,
+    "our_prob": 86.0,
+    "market_prob": 52.4,
+    "best_odds": -101,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 0.54,
+      "home_pitcher_era_l5": 1.8,
+      "park_factor": 0.96
+    },
+    "result": "W",
+    "actual_score": "0-3",
+    "created_at": "2026-04-12T10:30:31.504107",
+    "settled_at": "2026-04-13T09:00:05.720268"
+  },
+  {
+    "id": 38,
+    "date": "2026-04-12",
+    "model": "ip_props",
+    "game": "Chicago White Sox @ Kansas City Royals",
+    "play": "Grant Taylor Under 17.5 Outs",
+    "edge_pct": 65.7,
+    "our_prob": 6.0,
+    "market_prob": 17.5,
+    "best_odds": -102,
+    "best_book": "FanDuel",
+    "key_features": {
+      "avg_ip_last_3": 1.0,
+      "days_rest": 3
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-12T10:30:31.500319",
+    "settled_at": "2026-04-13T09:00:05.713515"
+  },
+  {
+    "id": 37,
+    "date": "2026-04-12",
+    "model": "f5_under",
+    "game": "Miami Marlins @ Detroit Tigers",
+    "play": "F5 Under 5.0",
+    "edge_pct": 69.8,
+    "our_prob": 88.9,
+    "market_prob": 52.4,
+    "best_odds": -102,
+    "best_book": "BetMGM",
+    "key_features": {
+      "away_pitcher_era_l5": 0.25,
+      "home_pitcher_era_l5": 1.08,
+      "park_factor": 0.96
+    },
+    "result": "W",
+    "actual_score": "0-4",
+    "created_at": "2026-04-12T10:30:31.494631",
+    "settled_at": "2026-04-13T09:00:05.717716"
+  },
+  {
     "id": 36,
     "date": "2026-04-11",
     "model": "ip_props",
