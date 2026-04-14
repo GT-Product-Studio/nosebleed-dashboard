@@ -1,5 +1,110 @@
 [
   {
+    "id": 46,
+    "date": "2026-04-13",
+    "model": "k_props",
+    "game": "Los Angeles Angels @ New York Yankees",
+    "play": "Yusei Kikuchi Over 5.2 Ks",
+    "edge_pct": 10.2,
+    "our_prob": 5.7,
+    "market_prob": 5.2,
+    "best_odds": 100,
+    "best_book": "FanDuel",
+    "key_features": {
+      "k_per_9": 9.8,
+      "opp_k_rate": 0.261,
+      "recent_k_avg": 5.3
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-13T10:30:22.986783",
+    "settled_at": "2026-04-14T09:00:05.509097"
+  },
+  {
+    "id": 45,
+    "date": "2026-04-13",
+    "model": "k_props",
+    "game": "Los Angeles Angels @ New York Yankees",
+    "play": "Will Warren Over 4.4 Ks",
+    "edge_pct": 11.0,
+    "our_prob": 4.9,
+    "market_prob": 4.4,
+    "best_odds": 100,
+    "best_book": "FanDuel",
+    "key_features": {
+      "k_per_9": 8.6,
+      "opp_k_rate": 0.257,
+      "recent_k_avg": 4.7
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-13T10:30:22.984556",
+    "settled_at": "2026-04-14T09:00:05.507551"
+  },
+  {
+    "id": 44,
+    "date": "2026-04-13",
+    "model": "k_props",
+    "game": "Houston Astros @ Seattle Mariners",
+    "play": "Mike Burrows Over 4.9 Ks",
+    "edge_pct": 11.1,
+    "our_prob": 5.4,
+    "market_prob": 4.9,
+    "best_odds": -105,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "k_per_9": 8.4,
+      "opp_k_rate": 0.261,
+      "recent_k_avg": 5.0
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-13T10:30:22.981532",
+    "settled_at": "2026-04-14T09:00:05.505879"
+  },
+  {
+    "id": 43,
+    "date": "2026-04-13",
+    "model": "k_props",
+    "game": "Texas Rangers @ Athletics",
+    "play": "Nathan Eovaldi Over 6.1 Ks",
+    "edge_pct": 12.4,
+    "our_prob": 6.9,
+    "market_prob": 6.1,
+    "best_odds": -102,
+    "best_book": "BetMGM",
+    "key_features": {
+      "k_per_9": 11.7,
+      "opp_k_rate": 0.274,
+      "recent_k_avg": 6.3
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-13T10:30:22.978277",
+    "settled_at": "2026-04-14T09:00:05.510435"
+  },
+  {
+    "id": 42,
+    "date": "2026-04-13",
+    "model": "f5_under",
+    "game": "Cleveland Guardians @ St. Louis Cardinals",
+    "play": "F5 Under 4.7",
+    "edge_pct": 36.4,
+    "our_prob": 71.5,
+    "market_prob": 52.4,
+    "best_odds": -105,
+    "best_book": "FanDuel",
+    "key_features": {
+      "away_pitcher_era_l5": 3.23,
+      "home_pitcher_era_l5": 2.27,
+      "park_factor": 0.98
+    },
+    "result": "L",
+    "actual_score": "4-1",
+    "created_at": "2026-04-13T10:30:22.972356",
+    "settled_at": "2026-04-14T09:00:05.500569"
+  },
+  {
     "id": 41,
     "date": "2026-04-12",
     "model": "f5_under",
