@@ -1,5 +1,109 @@
 [
   {
+    "id": 56,
+    "date": "2026-04-15",
+    "model": "f5_under",
+    "game": "Boston Red Sox @ Minnesota Twins",
+    "play": "F5 Under 5.5",
+    "edge_pct": 29.0,
+    "our_prob": 67.6,
+    "market_prob": 52.4,
+    "best_odds": 100,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 2.4,
+      "home_pitcher_era_l5": 3.5,
+      "park_factor": 0.98
+    },
+    "result": "L",
+    "actual_score": "7-1",
+    "created_at": "2026-04-15T10:30:27.917471",
+    "settled_at": "2026-04-16T09:00:04.642885"
+  },
+  {
+    "id": 55,
+    "date": "2026-04-15",
+    "model": "f5_under",
+    "game": "Toronto Blue Jays @ Milwaukee Brewers",
+    "play": "F5 Under 5.5",
+    "edge_pct": 55.5,
+    "our_prob": 81.5,
+    "market_prob": 52.4,
+    "best_odds": -104,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 2.31,
+      "home_pitcher_era_l5": 1.26,
+      "park_factor": 0.97
+    },
+    "result": "W",
+    "actual_score": "1-0",
+    "created_at": "2026-04-15T10:30:27.915423",
+    "settled_at": "2026-04-16T09:00:04.653538"
+  },
+  {
+    "id": 54,
+    "date": "2026-04-15",
+    "model": "ip_props",
+    "game": "Washington Nationals @ Pittsburgh Pirates",
+    "play": "Mason Montgomery Under 17.5 Outs",
+    "edge_pct": 60.0,
+    "our_prob": 7.0,
+    "market_prob": 17.5,
+    "best_odds": 103,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "avg_ip_last_3": 0.7,
+      "days_rest": 1
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-15T10:30:27.912555",
+    "settled_at": "2026-04-16T09:00:04.655389"
+  },
+  {
+    "id": 53,
+    "date": "2026-04-15",
+    "model": "f5_under",
+    "game": "New York Mets @ Los Angeles Dodgers",
+    "play": "F5 Under 5.3",
+    "edge_pct": 68.0,
+    "our_prob": 88.0,
+    "market_prob": 52.4,
+    "best_odds": -115,
+    "best_book": "FanDuel",
+    "key_features": {
+      "away_pitcher_era_l5": 2.03,
+      "home_pitcher_era_l5": 0.0,
+      "park_factor": 1.0
+    },
+    "result": "W",
+    "actual_score": "1-2",
+    "created_at": "2026-04-15T10:30:27.909860",
+    "settled_at": "2026-04-16T09:00:04.648348"
+  },
+  {
+    "id": 52,
+    "date": "2026-04-15",
+    "model": "f5_under",
+    "game": "Seattle Mariners @ San Diego Padres",
+    "play": "F5 Under 4.9",
+    "edge_pct": 69.9,
+    "our_prob": 89.0,
+    "market_prob": 52.4,
+    "best_odds": 100,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 0.92,
+      "home_pitcher_era_l5": 0.59,
+      "park_factor": 0.95
+    },
+    "result": "L",
+    "actual_score": "6-0",
+    "created_at": "2026-04-15T10:30:27.905638",
+    "settled_at": "2026-04-16T09:00:04.650798"
+  },
+  {
     "id": 51,
     "date": "2026-04-14",
     "model": "f5_under",
