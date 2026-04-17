@@ -1,5 +1,106 @@
 [
   {
+    "id": 61,
+    "date": "2026-04-16",
+    "model": "f5_under",
+    "game": "Washington Nationals @ Pittsburgh Pirates",
+    "play": "F5 Under 6.0",
+    "edge_pct": 45.2,
+    "our_prob": 76.1,
+    "market_prob": 52.4,
+    "best_odds": 103,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 2.69,
+      "home_pitcher_era_l5": 2.46,
+      "park_factor": 0.97
+    },
+    "result": "L",
+    "actual_score": "4-4",
+    "created_at": "2026-04-16T10:30:18.745170",
+    "settled_at": "2026-04-17T09:00:06.939922"
+  },
+  {
+    "id": 60,
+    "date": "2026-04-16",
+    "model": "ip_props",
+    "game": "Colorado Rockies @ Houston Astros",
+    "play": "Ryan Weiss Under 17.5 Outs",
+    "edge_pct": 48.6,
+    "our_prob": 9.0,
+    "market_prob": 17.5,
+    "best_odds": 100,
+    "best_book": "BetMGM",
+    "key_features": {
+      "avg_ip_last_3": 2.4,
+      "days_rest": 6
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-16T10:30:18.742957",
+    "settled_at": "2026-04-17T09:00:06.934970"
+  },
+  {
+    "id": 59,
+    "date": "2026-04-16",
+    "model": "ip_props",
+    "game": "Colorado Rockies @ Houston Astros",
+    "play": "Juan Mejia Under 17.5 Outs",
+    "edge_pct": 54.3,
+    "our_prob": 8.0,
+    "market_prob": 17.5,
+    "best_odds": 100,
+    "best_book": "BetMGM",
+    "key_features": {
+      "avg_ip_last_3": 0.7,
+      "days_rest": 2
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-16T10:30:18.740360",
+    "settled_at": "2026-04-17T09:00:06.932495"
+  },
+  {
+    "id": 58,
+    "date": "2026-04-16",
+    "model": "ip_props",
+    "game": "Los Angeles Angels @ New York Yankees",
+    "play": "Max Fried Over 17.5 Outs",
+    "edge_pct": 54.3,
+    "our_prob": 27.0,
+    "market_prob": 17.5,
+    "best_odds": -103,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "avg_ip_last_5": 6.8,
+      "opp_k_rate": 0.252
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-16T10:30:18.737544",
+    "settled_at": "2026-04-17T09:00:06.936833"
+  },
+  {
+    "id": 57,
+    "date": "2026-04-16",
+    "model": "ip_props",
+    "game": "Tampa Bay Rays @ Chicago White Sox",
+    "play": "Jordan Leasure Under 17.5 Outs",
+    "edge_pct": 82.9,
+    "our_prob": 3.0,
+    "market_prob": 17.5,
+    "best_odds": 100,
+    "best_book": "FanDuel",
+    "key_features": {
+      "avg_ip_last_3": 1.0,
+      "days_rest": 4
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-16T10:30:18.732046",
+    "settled_at": "2026-04-17T09:00:06.938490"
+  },
+  {
     "id": 56,
     "date": "2026-04-15",
     "model": "f5_under",
