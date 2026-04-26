@@ -1,5 +1,109 @@
 [
   {
+    "id": 103,
+    "date": "2026-04-25",
+    "model": "ip_props",
+    "game": "Colorado Rockies @ New York Mets",
+    "play": "Jose Quintana Under 17.5 Outs",
+    "edge_pct": 20.0,
+    "our_prob": 14.0,
+    "market_prob": 17.5,
+    "best_odds": -110,
+    "best_book": "estimated",
+    "key_features": {
+      "avg_ip_last_3": 4.1,
+      "days_rest": 5
+    },
+    "result": "NO_ACTION",
+    "actual_score": "pitcher stats not found",
+    "created_at": "2026-04-25T10:30:32.103163",
+    "settled_at": "2026-04-26T09:00:06.011490"
+  },
+  {
+    "id": 102,
+    "date": "2026-04-25",
+    "model": "f5_under",
+    "game": "Athletics @ Texas Rangers",
+    "play": "F5 Under 5.0",
+    "edge_pct": 21.9,
+    "our_prob": 63.8,
+    "market_prob": 52.4,
+    "best_odds": -101,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 2.41,
+      "home_pitcher_era_l5": 3.45,
+      "park_factor": 1.04
+    },
+    "result": "PUSH",
+    "actual_score": "3-2",
+    "created_at": "2026-04-25T10:30:32.100637",
+    "settled_at": "2026-04-26T09:00:06.004752"
+  },
+  {
+    "id": 101,
+    "date": "2026-04-25",
+    "model": "f5_under",
+    "game": "Cleveland Guardians @ Toronto Blue Jays",
+    "play": "F5 Under 4.8",
+    "edge_pct": 37.9,
+    "our_prob": 72.2,
+    "market_prob": 52.4,
+    "best_odds": -102,
+    "best_book": "BetMGM",
+    "key_features": {
+      "away_pitcher_era_l5": 3.23,
+      "home_pitcher_era_l5": 1.75,
+      "park_factor": 0.99
+    },
+    "result": "W",
+    "actual_score": "1-1",
+    "created_at": "2026-04-25T10:30:32.094903",
+    "settled_at": "2026-04-26T09:00:06.008761"
+  },
+  {
+    "id": 100,
+    "date": "2026-04-25",
+    "model": "f5_under",
+    "game": "Seattle Mariners @ St. Louis Cardinals",
+    "play": "F5 Under 4.9",
+    "edge_pct": 38.3,
+    "our_prob": 72.4,
+    "market_prob": 52.4,
+    "best_odds": -110,
+    "best_book": "FanDuel",
+    "key_features": {
+      "away_pitcher_era_l5": 2.06,
+      "home_pitcher_era_l5": 2.96,
+      "park_factor": 0.98
+    },
+    "result": "L",
+    "actual_score": "6-7",
+    "created_at": "2026-04-25T10:30:32.091556",
+    "settled_at": "2026-04-26T09:00:06.015420"
+  },
+  {
+    "id": 99,
+    "date": "2026-04-25",
+    "model": "f5_under",
+    "game": "Pittsburgh Pirates @ Milwaukee Brewers",
+    "play": "F5 Under 5.8",
+    "edge_pct": 41.8,
+    "our_prob": 74.3,
+    "market_prob": 52.4,
+    "best_odds": -106,
+    "best_book": "Pinnacle",
+    "key_features": {
+      "away_pitcher_era_l5": 1.63,
+      "home_pitcher_era_l5": 2.78,
+      "park_factor": 0.97
+    },
+    "result": "W",
+    "actual_score": "2-2",
+    "created_at": "2026-04-25T10:30:32.085887",
+    "settled_at": "2026-04-26T09:00:06.013051"
+  },
+  {
     "id": 98,
     "date": "2026-04-24",
     "model": "f5_under",
