@@ -55,10 +55,10 @@
     },
     "tier": "pending_tier",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "1-0",
+    "pnl_units": 0.9259259259259259,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -69,7 +69,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-05-16T10:30:30.666107",
-    "settled_at": null
+    "settled_at": "2026-05-17T07:30:05.422452"
   },
   {
     "id": 1186,
@@ -127,10 +127,10 @@
     },
     "tier": "pending_tier",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "1-2",
+    "pnl_units": 1.01,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -141,7 +141,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-05-16T10:30:30.673403",
-    "settled_at": null
+    "settled_at": "2026-05-17T07:30:05.425136"
   },
   {
     "id": 1187,
@@ -199,10 +199,10 @@
     },
     "tier": "pending_tier",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "0-1",
+    "pnl_units": 1.02,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -213,7 +213,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-05-16T10:30:30.678356",
-    "settled_at": null
+    "settled_at": "2026-05-17T07:30:05.426897"
   },
   {
     "id": 1188,
@@ -271,10 +271,10 @@
     },
     "tier": "pending_tier",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "0-4",
+    "pnl_units": 0.9090909090909091,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -285,7 +285,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-05-16T10:30:30.682109",
-    "settled_at": null
+    "settled_at": "2026-05-17T07:30:05.428507"
   },
   {
     "id": 1189,
@@ -325,10 +325,10 @@
     },
     "tier": "pending_tier",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "6.0 IP (18 outs)",
+    "pnl_units": 0.970873786407767,
     "clv_open": null,
     "clv_close": null,
     "close_line": 17.5,
@@ -339,7 +339,7 @@
     "clv_result": "beat_close",
     "clv_checked_at": "2026-05-16T16:00:05.660791",
     "created_at": "2026-05-16T10:30:30.686341",
-    "settled_at": null
+    "settled_at": "2026-05-17T07:30:05.430172"
   },
   {
     "id": 1184,
@@ -383,10 +383,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "L",
+    "actual_score": "0 H, 3 AB, 3 PA",
+    "pnl_units": 0.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -397,7 +397,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-05-16T10:30:17.188762",
-    "settled_at": null
+    "settled_at": "2026-05-17T07:30:05.433117"
   },
   {
     "id": 1183,
@@ -441,10 +441,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "L",
+    "actual_score": "0 H, 1 AB, 1 PA",
+    "pnl_units": 0.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -455,7 +455,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-05-16T10:30:17.186666",
-    "settled_at": null
+    "settled_at": "2026-05-17T07:30:05.431750"
   },
   {
     "id": 1178,
