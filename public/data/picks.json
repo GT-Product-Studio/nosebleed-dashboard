@@ -53,7 +53,7 @@
       "best_odds": -105,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -125,7 +125,7 @@
       "best_odds": -105,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -179,7 +179,7 @@
       "best_odds": -102,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -251,7 +251,7 @@
       "best_odds": -102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -323,7 +323,7 @@
       "best_odds": 100,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -381,8 +381,8 @@
       "game": "Detroit Tigers @ New York Yankees",
       "venue": "Yankee Stadium"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "W",
     "actual_score": "1 H, 3 AB, 3 PA",
@@ -743,7 +743,7 @@
       "best_odds": 103,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -797,7 +797,7 @@
       "best_odds": 104,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -851,7 +851,7 @@
       "best_odds": 104,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -905,7 +905,7 @@
       "best_odds": 102,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -959,7 +959,7 @@
       "best_odds": 102,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -1013,7 +1013,7 @@
       "best_odds": -101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -1085,7 +1085,7 @@
       "best_odds": -101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -1139,7 +1139,7 @@
       "best_odds": 100,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -1193,7 +1193,7 @@
       "best_odds": -105,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -1301,7 +1301,7 @@
       "best_odds": -102,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -1373,7 +1373,7 @@
       "best_odds": -103,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -1427,7 +1427,7 @@
       "best_odds": -101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -1499,7 +1499,7 @@
       "best_odds": -110,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -1571,7 +1571,7 @@
       "best_odds": -109,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -1915,7 +1915,7 @@
       "best_odds": -106,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -1987,7 +1987,7 @@
       "best_odds": 100,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -2041,7 +2041,7 @@
       "best_odds": 102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -2113,7 +2113,7 @@
       "best_odds": -110,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -2185,7 +2185,7 @@
       "best_odds": -106,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -2243,8 +2243,8 @@
       "game": "New York Yankees @ Boston Red Sox",
       "venue": "Fenway Park"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "L",
     "actual_score": "0 H, 4 AB, 4 PA",
@@ -2721,7 +2721,7 @@
       "best_odds": -102,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -2793,7 +2793,7 @@
       "best_odds": -101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -2865,7 +2865,7 @@
       "best_odds": -117,
       "best_book": "DraftKings"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -2937,7 +2937,7 @@
       "best_odds": 103,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -2991,7 +2991,7 @@
       "best_odds": -105,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -3063,7 +3063,7 @@
       "best_odds": 102,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -3121,7 +3121,7 @@
       "game": "Kansas City Royals @ Tampa Bay Rays",
       "venue": "Tropicana Field"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -3193,7 +3193,7 @@
       "best_odds": 102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -3247,8 +3247,8 @@
       "best_odds": -105,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "NO_ACTION",
     "actual_score": "pitcher stats not found",
@@ -3301,7 +3301,7 @@
       "best_odds": 102,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -3355,7 +3355,7 @@
       "best_odds": -102,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -3543,7 +3543,7 @@
       "best_odds": 102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -3597,7 +3597,7 @@
       "best_odds": 101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -3669,7 +3669,7 @@
       "best_odds": -101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -3723,7 +3723,7 @@
       "best_odds": -103,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -3777,7 +3777,7 @@
       "best_odds": -102,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -3849,7 +3849,7 @@
       "best_odds": 107,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -3921,7 +3921,7 @@
       "best_odds": -119,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -3993,7 +3993,7 @@
       "best_odds": -110,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -4047,7 +4047,7 @@
       "best_odds": -106,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -4101,7 +4101,7 @@
       "best_odds": 100,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "NO_ACTION",
@@ -4173,7 +4173,7 @@
       "best_odds": -102,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -4245,7 +4245,7 @@
       "best_odds": 100,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -4303,7 +4303,7 @@
       "game": "Washington Nationals @ Tampa Bay Rays",
       "venue": "Tropicana Field"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -4361,7 +4361,7 @@
       "game": "Chicago White Sox @ Detroit Tigers",
       "venue": "Comerica Park"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -4415,7 +4415,7 @@
       "best_odds": 106,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -4469,8 +4469,8 @@
       "best_odds": -104,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "W",
     "actual_score": "5 Ks",
@@ -4527,8 +4527,8 @@
       "game": "Cincinnati Reds @ New York Yankees",
       "venue": "Yankee Stadium"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "L",
     "actual_score": "0 H, 3 AB, 4 PA",
@@ -4585,8 +4585,8 @@
       "game": "Milwaukee Brewers @ Atlanta Braves",
       "venue": "Truist Park"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "L",
     "actual_score": "0 H, 2 AB, 3 PA",
@@ -4639,8 +4639,8 @@
       "best_odds": 101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "L",
     "actual_score": "2 Ks",
@@ -5273,7 +5273,7 @@
       "best_odds": 104,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -5327,7 +5327,7 @@
       "best_odds": -101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -5399,7 +5399,7 @@
       "best_odds": -102,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -5471,7 +5471,7 @@
       "best_odds": -115,
       "best_book": "DraftKings"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -5543,7 +5543,7 @@
       "best_odds": -103,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -5673,7 +5673,7 @@
       "best_odds": -105,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -5745,7 +5745,7 @@
       "best_odds": 104,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -5817,7 +5817,7 @@
       "best_odds": -101,
       "best_book": "DraftKings"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -5871,7 +5871,7 @@
       "best_odds": 102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -5943,7 +5943,7 @@
       "best_odds": 100,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -6015,7 +6015,7 @@
       "best_odds": -110,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -6087,7 +6087,7 @@
       "best_odds": -106,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -6141,7 +6141,7 @@
       "best_odds": 104,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -6195,7 +6195,7 @@
       "best_odds": 100,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -6249,7 +6249,7 @@
       "best_odds": -101,
       "best_book": "DraftKings"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -6321,7 +6321,7 @@
       "best_odds": 103,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -6375,7 +6375,7 @@
       "best_odds": 105,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -6447,7 +6447,7 @@
       "best_odds": 105,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -6519,7 +6519,7 @@
       "best_odds": -102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -6591,7 +6591,7 @@
       "best_odds": 101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -6649,8 +6649,8 @@
       "game": "New York Mets @ Cincinnati Reds",
       "venue": "Great American Ball Park"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "W",
     "actual_score": "1 H, 4 AB, 5 PA",
@@ -6707,8 +6707,8 @@
       "game": "San Francisco Giants @ Atlanta Braves",
       "venue": "Truist Park"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "W",
     "actual_score": "1 H, 3 AB, 4 PA",
@@ -7475,7 +7475,7 @@
       "best_odds": 103,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -7529,7 +7529,7 @@
       "best_odds": 102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -7601,7 +7601,7 @@
       "best_odds": -105,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -7673,7 +7673,7 @@
       "best_odds": 100,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -7745,7 +7745,7 @@
       "best_odds": 104,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -7817,7 +7817,7 @@
       "best_odds": 100,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -7889,7 +7889,7 @@
       "best_odds": -115,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -7943,7 +7943,7 @@
       "best_odds": 101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -7997,7 +7997,7 @@
       "best_odds": 100,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -8051,7 +8051,7 @@
       "best_odds": -105,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -8105,7 +8105,7 @@
       "best_odds": -102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -8159,7 +8159,7 @@
       "best_odds": -105,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -8231,7 +8231,7 @@
       "best_odds": 104,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -8303,7 +8303,7 @@
       "best_odds": 103,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -8375,7 +8375,7 @@
       "best_odds": 107,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -8433,8 +8433,8 @@
       "game": "Detroit Tigers @ Cleveland Guardians",
       "venue": "Progressive Field"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "NO_ACTION",
     "actual_score": "batter stats not found",
@@ -8491,8 +8491,8 @@
       "game": "Miami Marlins @ Pittsburgh Pirates",
       "venue": "PNC Park"
     },
-    "tier": "pending_tier",
-    "official": true,
+    "tier": "watchlist",
+    "official": false,
     "status": "settled",
     "result": "W",
     "actual_score": "1 H, 4 AB, 4 PA",
@@ -9183,7 +9183,7 @@
       "best_odds": 100,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -9237,7 +9237,7 @@
       "best_odds": -103,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -9309,7 +9309,7 @@
       "best_odds": 102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -9363,7 +9363,7 @@
       "best_odds": 100,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -9435,7 +9435,7 @@
       "best_odds": -101,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -9507,7 +9507,7 @@
       "best_odds": 100,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -9561,7 +9561,7 @@
       "best_odds": -104,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -9615,7 +9615,7 @@
       "best_odds": 100,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -9669,7 +9669,7 @@
       "best_odds": 100,
       "best_book": "BetMGM"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -9723,7 +9723,7 @@
       "best_odds": -102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -9777,7 +9777,7 @@
       "best_odds": -102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -9831,7 +9831,7 @@
       "best_odds": -103,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -9885,7 +9885,7 @@
       "best_odds": -102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -9943,7 +9943,7 @@
       "game": "Arizona Diamondbacks @ Miami Marlins",
       "venue": "loanDepot park"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -10287,7 +10287,7 @@
       "best_odds": 102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -10341,7 +10341,7 @@
       "best_odds": -102,
       "best_book": "FanDuel"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -10413,7 +10413,7 @@
       "best_odds": -113,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -10467,7 +10467,7 @@
       "best_odds": -106,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -10521,7 +10521,7 @@
       "best_odds": 102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -10709,7 +10709,7 @@
       "best_odds": -119,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -10781,7 +10781,7 @@
       "best_odds": -108,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -10853,7 +10853,7 @@
       "best_odds": -117,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -10925,7 +10925,7 @@
       "best_odds": 102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -10979,7 +10979,7 @@
       "best_odds": 102,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "skybox",
     "official": true,
     "status": "settled",
     "result": "W",
@@ -11051,7 +11051,7 @@
       "best_odds": -112,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "free",
     "official": true,
     "status": "settled",
     "result": "L",
@@ -11105,7 +11105,7 @@
       "best_odds": 104,
       "best_book": "Pinnacle"
     },
-    "tier": "pending_tier",
+    "tier": "grandstand",
     "official": true,
     "status": "settled",
     "result": "W",
