@@ -55,10 +55,10 @@
     },
     "tier": "free",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "L",
+    "actual_score": "5-1",
+    "pnl_units": -1.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -69,7 +69,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-02T10:30:16.902793",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.042488"
   },
   {
     "id": 1539,
@@ -127,10 +127,10 @@
     },
     "tier": "grandstand",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "0-0",
+    "pnl_units": 1.06,
     "clv_open": null,
     "clv_close": null,
     "close_line": 5.0,
@@ -141,7 +141,7 @@
     "clv_result": "lost_close",
     "clv_checked_at": "2026-07-02T16:00:07.563339",
     "created_at": "2026-07-02T10:30:16.918488",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.045876"
   },
   {
     "id": 1540,
@@ -181,10 +181,10 @@
     },
     "tier": "grandstand",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "L",
+    "actual_score": "5.0 IP (15 outs)",
+    "pnl_units": -1.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": 18.5,
@@ -195,7 +195,7 @@
     "clv_result": "beat_close",
     "clv_checked_at": "2026-07-02T16:00:08.050343",
     "created_at": "2026-07-02T10:30:16.931087",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.048647"
   },
   {
     "id": 1542,
@@ -235,10 +235,10 @@
     },
     "tier": "skybox",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "3.0 IP (9 outs)",
+    "pnl_units": 0.9523809523809523,
     "clv_open": null,
     "clv_close": null,
     "close_line": 12.5,
@@ -249,7 +249,7 @@
     "clv_result": "beat_close",
     "clv_checked_at": "2026-07-02T16:00:08.433671",
     "created_at": "2026-07-02T10:30:16.937920",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.052564"
   },
   {
     "id": 1541,
@@ -289,10 +289,10 @@
     },
     "tier": "skybox",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "4.0 IP (12 outs)",
+    "pnl_units": 0.9615384615384616,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -303,7 +303,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-02T10:30:16.935556",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.050929"
   },
   {
     "id": 1531,
@@ -347,10 +347,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "1 H, 5 AB, 5 PA",
+    "pnl_units": 0.425531914893617,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -361,7 +361,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-02T10:30:16.572063",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.054768"
   },
   {
     "id": 1532,
@@ -405,10 +405,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "L",
+    "actual_score": "0 H, 3 AB, 3 PA",
+    "pnl_units": -1.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -419,7 +419,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-02T10:30:16.573124",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.056388"
   },
   {
     "id": 1537,
@@ -463,10 +463,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "L",
+    "actual_score": "0 H, 2 AB, 3 PA",
+    "pnl_units": 0.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -477,7 +477,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-02T10:30:16.577006",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.064975"
   },
   {
     "id": 1536,
@@ -521,10 +521,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "3 H, 5 AB, 5 PA",
+    "pnl_units": 0.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -535,7 +535,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-02T10:30:16.576233",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.063456"
   },
   {
     "id": 1535,
@@ -579,10 +579,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "1 H, 4 AB, 5 PA",
+    "pnl_units": 0.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -593,7 +593,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-02T10:30:16.575470",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.061853"
   },
   {
     "id": 1534,
@@ -637,10 +637,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "1 H, 4 AB, 4 PA",
+    "pnl_units": 0.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -651,7 +651,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-02T10:30:16.574670",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.059879"
   },
   {
     "id": 1533,
@@ -695,10 +695,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "1 H, 4 AB, 4 PA",
+    "pnl_units": 0.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -709,7 +709,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-02T10:30:16.573966",
-    "settled_at": null
+    "settled_at": "2026-07-03T07:30:05.058149"
   },
   {
     "id": 1520,
