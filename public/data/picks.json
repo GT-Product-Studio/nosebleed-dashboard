@@ -55,10 +55,10 @@
     },
     "tier": "free",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "L",
+    "actual_score": "0-8",
+    "pnl_units": -1.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -69,7 +69,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-17T10:30:25.574977",
-    "settled_at": null
+    "settled_at": "2026-07-18T07:30:05.799626"
   },
   {
     "id": 1645,
@@ -109,10 +109,10 @@
     },
     "tier": "grandstand",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "9 Ks",
+    "pnl_units": 1.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": 5.5,
@@ -123,7 +123,7 @@
     "clv_result": "beat_close",
     "clv_checked_at": "2026-07-17T16:00:02.869476",
     "created_at": "2026-07-17T10:30:25.580821",
-    "settled_at": null
+    "settled_at": "2026-07-18T07:30:05.809693"
   },
   {
     "id": 1646,
@@ -181,10 +181,10 @@
     },
     "tier": "grandstand",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "0-3",
+    "pnl_units": 1.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": 5.0,
@@ -195,7 +195,7 @@
     "clv_result": "lost_close",
     "clv_checked_at": "2026-07-17T18:30:03.636388",
     "created_at": "2026-07-17T10:30:25.585309",
-    "settled_at": null
+    "settled_at": "2026-07-18T07:30:05.804366"
   },
   {
     "id": 1647,
@@ -253,10 +253,10 @@
     },
     "tier": "skybox",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "1-2",
+    "pnl_units": 1.03,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -267,7 +267,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-17T10:30:25.588587",
-    "settled_at": null
+    "settled_at": "2026-07-18T07:30:05.806839"
   },
   {
     "id": 1648,
@@ -307,10 +307,10 @@
     },
     "tier": "skybox",
     "official": true,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "6 Ks",
+    "pnl_units": 0.970873786407767,
     "clv_open": null,
     "clv_close": null,
     "close_line": 4.5,
@@ -321,7 +321,7 @@
     "clv_result": "lost_close",
     "clv_checked_at": "2026-07-17T16:00:05.364815",
     "created_at": "2026-07-17T10:30:25.591798",
-    "settled_at": null
+    "settled_at": "2026-07-18T07:30:05.811768"
   },
   {
     "id": 1643,
@@ -365,10 +365,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "3 H, 4 AB, 4 PA",
+    "pnl_units": 0.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -379,7 +379,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-17T10:30:12.865709",
-    "settled_at": null
+    "settled_at": "2026-07-18T07:30:05.815801"
   },
   {
     "id": 1642,
@@ -423,10 +423,10 @@
     },
     "tier": "watchlist",
     "official": false,
-    "status": "pending",
-    "result": null,
-    "actual_score": null,
-    "pnl_units": null,
+    "status": "settled",
+    "result": "W",
+    "actual_score": "1 H, 5 AB, 5 PA",
+    "pnl_units": 0.0,
     "clv_open": null,
     "clv_close": null,
     "close_line": null,
@@ -437,7 +437,7 @@
     "clv_result": null,
     "clv_checked_at": null,
     "created_at": "2026-07-17T10:30:12.864903",
-    "settled_at": null
+    "settled_at": "2026-07-18T07:30:05.814075"
   },
   {
     "id": 1624,
